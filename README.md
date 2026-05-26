@@ -1,4 +1,12 @@
+<div align="center">
+    <p align="center">
+        <a href="">
+          <img width="8%" src="https://github.com/cybersecurity-dev/cybersecurity-dev/blob/main/assets/Tux.svg" />
+        </a>
+    </p>
+
 # Linux Toolkit
+</div>
 
 ## Install Applications
 
@@ -56,6 +64,7 @@ ssh-copy-id user_remote@user_remote_ip
 and than you will connect via ssh without password but if you entered passphrase, system will ask you this.
 
 ### 2. Install Programming Language
+
 #### 2.1. [![C](https://img.shields.io/badge/C-00599C?logo=c&logoColor=white)](#) [![C++](https://img.shields.io/badge/C++-%2300599C.svg?logo=c%2B%2B&logoColor=white)](#) <a id="install-c-cpp"></a>
   * [![Debian](https://img.shields.io/badge/Debian-A81D33?logo=debian&logoColor=fff)](https://www.debian.org/)
       * LLVM 
@@ -136,4 +145,10 @@ and than you will connect via ssh without password but if you entered passphrase
     ```bash
     sudo snap install solc && solc --version
     ```
+### 3. Monitor and Analyze System Activity
 
+#### 3.1 Process Activity
+
+#### 3.2 Network Activity
+
+#### 3.3 File Activity
