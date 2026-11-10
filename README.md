@@ -25,18 +25,23 @@
 
 ### 1. Install SSH server
 
+<details>
+ 
+<summary>Debian, Fedora, openSUSE</summary>
+ 
 * [![Debian](https://img.shields.io/badge/Debian-A81D33?logo=debian&logoColor=fff)](#)
-  ```bash
-  sudo apt-get install -y openssh-server && sudo systemctl enable ssh --now
-  ```
+    ```bash
+    sudo apt-get install -y openssh-server && sudo systemctl enable ssh --now
+    ```
 * [![Fedora](https://img.shields.io/badge/Fedora-51A2DA?logo=fedora&logoColor=fff)](#)
-  ```bash
-  sudo dnf install -y openssh-server && sudo systemctl enable sshd --now
-  ```
+    ```bash
+   sudo dnf install -y openssh-server && sudo systemctl enable sshd --now
+    ```
 * [![openSUSE](https://img.shields.io/badge/openSUSE-73BA25?style=flat&logo=SUSE&logoColor=white)](#)
-  ```bash
-  sudo zypper install --no-confirm openssh && sudo systemctl enable sshd --now
-  ```
+   ```bash
+   sudo zypper install --no-confirm openssh && sudo systemctl enable sshd --now
+   ```
+</details>
 
 * Add Firewall Rure
   ```bash
