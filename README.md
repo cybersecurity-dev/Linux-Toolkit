@@ -26,7 +26,6 @@
 ### 1. Install SSH server
 
 <details>
- 
 <summary>Debian, Fedora, openSUSE</summary>
  
 * [![Debian](https://img.shields.io/badge/Debian-A81D33?logo=debian&logoColor=fff)](#)
@@ -84,85 +83,116 @@ and than you will connect via ssh without password but if you entered passphrase
 ### 2. Install Programming Language
 
 #### 2.1. [![C](https://img.shields.io/badge/C-00599C?logo=c&logoColor=white)](#) [![C++](https://img.shields.io/badge/C++-%2300599C.svg?logo=c%2B%2B&logoColor=white)](#) <a id="install-c-cpp"></a>
-  * [![Debian](https://img.shields.io/badge/Debian-A81D33?logo=debian&logoColor=fff)](https://www.debian.org/)
-      * LLVM 
-        ```bash
-        sudo apt-get update && sudo apt-get install -y clang && clang version 
-        ```
-      * GCC
-        ```bash
-        sudo apt-get update && sudo apt-get install -y build-essential && g++ version 
-        ```
-  * [![Fedora](https://img.shields.io/badge/Fedora-51A2DA?logo=fedora&logoColor=fff)](https://www.fedoraproject.org/)
-     * LLVM
-    ```bash
-    sudo dnf upgrade --refresh && sudo dnf install -y clang && clang version
-    ```
-  * [![openSUSE](https://img.shields.io/badge/openSUSE-73BA25?style=flat&logo=SUSE&logoColor=white)](https://www.opensuse.org/)
-    ```bash
-    sudo zypper refresh && sudo zypper install -y clang && clang version
-    ```
+
+<details>
+<summary>Debian, Fedora, openSUSE</summary>
+
+* [![Debian](https://img.shields.io/badge/Debian-A81D33?logo=debian&logoColor=fff)](https://www.debian.org/)
+    * LLVM 
+      ```bash
+      sudo apt-get update && sudo apt-get install -y clang && clang version 
+      ```
+    * GCC
+      ```bash
+      sudo apt-get update && sudo apt-get install -y build-essential && g++ version 
+      ```
+* [![Fedora](https://img.shields.io/badge/Fedora-51A2DA?logo=fedora&logoColor=fff)](https://www.fedoraproject.org/)
+    * LLVM
+      ```bash
+      sudo dnf upgrade --refresh && sudo dnf install -y clang && clang version
+      ```
+    * GCC
+* [![openSUSE](https://img.shields.io/badge/openSUSE-73BA25?style=flat&logo=SUSE&logoColor=white)](https://www.opensuse.org/)
+    * LLVM
+      ```bash
+      sudo zypper refresh && sudo zypper install -y clang && clang version
+      ```
+    * GCC
+</details>
+
 #### 2.2. [![Go](https://img.shields.io/badge/Go-%2300ADD8.svg?&logo=go&logoColor=white)](#) <a id="install-go"></a>
-  * [![Debian](https://img.shields.io/badge/Debian-A81D33?logo=debian&logoColor=fff)](https://www.debian.org/)
-    ```bash
-    sudo apt-get update && sudo apt-get install -y golang && go version 
-    ```
-  * [![Fedora](https://img.shields.io/badge/Fedora-51A2DA?logo=fedora&logoColor=fff)](https://www.fedoraproject.org/)
-    ```bash
-    sudo dnf upgrade --refresh && sudo dnf install -y go && go version
-    ```
-  * [![openSUSE](https://img.shields.io/badge/openSUSE-73BA25?style=flat&logo=SUSE&logoColor=white)](https://www.opensuse.org/)
-    ```bash
-    sudo zypper refresh && sudo zypper install -y go && go version
-    ```
+
+<details>
+<summary>Debian, Fedora, openSUSE</summary>
+
+* [![Debian](https://img.shields.io/badge/Debian-A81D33?logo=debian&logoColor=fff)](https://www.debian.org/)
+  ```bash
+  sudo apt-get update && sudo apt-get install -y golang && go version 
+  ```
+* [![Fedora](https://img.shields.io/badge/Fedora-51A2DA?logo=fedora&logoColor=fff)](https://www.fedoraproject.org/)
+  ```bash
+  sudo dnf upgrade --refresh && sudo dnf install -y go && go version
+  ```
+* [![openSUSE](https://img.shields.io/badge/openSUSE-73BA25?style=flat&logo=SUSE&logoColor=white)](https://www.opensuse.org/)
+  ```bash
+  sudo zypper refresh && sudo zypper install -y go && go version
+  ```
+</details>
 
 #### 2.3. [![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff)](#) <a id="install-python"></a>
-  * [![Debian](https://img.shields.io/badge/Debian-A81D33?logo=debian&logoColor=fff)](https://www.debian.org/)
-    ```bash
-    sudo apt-get update && sudo apt-get install -y -y python3 python3-pip python3-devel && pip3 --version && pip3 install --upgrade pip && pip3 --version
-    ```
-  * [![Fedora](https://img.shields.io/badge/Fedora-51A2DA?logo=fedora&logoColor=fff)](https://www.fedoraproject.org/)
-    ```bash
-    sudo dnf upgrade --refresh && sudo dnf install -y python3 python3-pip python3-devel && pip3 --version && pip3 install --upgrade pip && pip3 --version
-    ```
-  * [![openSUSE](https://img.shields.io/badge/openSUSE-73BA25?style=flat&logo=SUSE&logoColor=white)](https://www.opensuse.org/)
-    ```bash
-    sudo zypper refresh && sudo zypper install -y python3 python3-pip python3-devel && pip3 --version
-    ```
+
+<details>
+<summary>Debian, Fedora, openSUSE</summary>
+
+* [![Debian](https://img.shields.io/badge/Debian-A81D33?logo=debian&logoColor=fff)](https://www.debian.org/)
+  ```bash
+  sudo apt-get update && sudo apt-get install -y -y python3 python3-pip python3-devel && pip3 --version && pip3 install --upgrade pip && pip3 --version
+  ```
+* [![Fedora](https://img.shields.io/badge/Fedora-51A2DA?logo=fedora&logoColor=fff)](https://www.fedoraproject.org/)
+  ```bash
+  sudo dnf upgrade --refresh && sudo dnf install -y python3 python3-pip python3-devel && pip3 --version && pip3 install --upgrade pip && pip3 --version
+  ```
+* [![openSUSE](https://img.shields.io/badge/openSUSE-73BA25?style=flat&logo=SUSE&logoColor=white)](https://www.opensuse.org/)
+  ```bash
+  sudo zypper refresh && sudo zypper install -y python3 python3-pip python3-devel && pip3 --version
+  ```
+</details>
 
 #### 2.4. [![Rust](https://img.shields.io/badge/Rust-%23000000.svg?e&logo=rust&logoColor=white)](#) <a id="install-rust"></a>
-  * [![Debian](https://img.shields.io/badge/Debian-A81D33?logo=debian&logoColor=fff)](https://www.debian.org/)
-    ```bash
-    sudo apt-get update && sudo apt-get install -y rustc && rustc -V 
-    ```
-  * [![Fedora](https://img.shields.io/badge/Fedora-51A2DA?logo=fedora&logoColor=fff)](https://www.fedoraproject.org/)
-    ```bash
-    sudo dnf upgrade --refresh && sudo dnf install -y rustc && rustc -V
-    ```
-  * [![openSUSE](https://img.shields.io/badge/openSUSE-73BA25?style=flat&logo=SUSE&logoColor=white)](https://www.opensuse.org/)
-    ```bash
-    curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh && rustc -V
-    ```
-  * Windows Subsystem for Linux
-    ```bash
-    curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh && rustc -V
-    ```
+
+<details>
+<summary>Debian, Fedora, openSUSE</summary>
+
+* [![Debian](https://img.shields.io/badge/Debian-A81D33?logo=debian&logoColor=fff)](https://www.debian.org/)
+  ```bash
+  sudo apt-get update && sudo apt-get install -y rustc && rustc -V 
+  ```
+* [![Fedora](https://img.shields.io/badge/Fedora-51A2DA?logo=fedora&logoColor=fff)](https://www.fedoraproject.org/)
+  ```bash
+  sudo dnf upgrade --refresh && sudo dnf install -y rustc && rustc -V
+  ```
+* [![openSUSE](https://img.shields.io/badge/openSUSE-73BA25?style=flat&logo=SUSE&logoColor=white)](https://www.opensuse.org/)
+  ```bash
+  curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh && rustc -V
+  ```
+* Windows Subsystem for Linux
+  ```bash
+  curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh && rustc -V
+  ```
+</details>
+
 #### 2.5. [![Solidity](https://img.shields.io/badge/Solidity-363636?logo=solidity&logoColor=fff)](https://soliditylang.org/) <a id="install-solidity"></a>
-  * [![Debian](https://img.shields.io/badge/Debian-A81D33?logo=debian&logoColor=fff)](https://www.debian.org/)
-    ```bash
-    sudo add-apt-repository ppa:ethereum/Ethereum
-    ```
-    ```bash
-    sudo apt-get update && sudo apt-get install -y solc && solc --version
-    ```
-  * [![Fedora](https://img.shields.io/badge/Fedora-51A2DA?logo=fedora&logoColor=fff)](https://www.fedoraproject.org/)
-    ```bash
-    sudo snap install solc &&  && solc --version
-    ```
-  * [![openSUSE](https://img.shields.io/badge/openSUSE-73BA25?style=flat&logo=SUSE&logoColor=white)](https://www.opensuse.org/)
-    ```bash
-    sudo snap install solc && solc --version
-    ```
+
+<details>
+<summary>Debian, Fedora, openSUSE</summary>
+
+* [![Debian](https://img.shields.io/badge/Debian-A81D33?logo=debian&logoColor=fff)](https://www.debian.org/)
+  ```bash
+  sudo add-apt-repository ppa:ethereum/Ethereum
+  ```
+  ```bash
+  sudo apt-get update && sudo apt-get install -y solc && solc --version
+  ```
+* [![Fedora](https://img.shields.io/badge/Fedora-51A2DA?logo=fedora&logoColor=fff)](https://www.fedoraproject.org/)
+  ```bash
+  sudo snap install solc &&  && solc --version
+  ```
+* [![openSUSE](https://img.shields.io/badge/openSUSE-73BA25?style=flat&logo=SUSE&logoColor=white)](https://www.opensuse.org/)
+  ```bash
+  sudo snap install solc && solc --version
+  ```
+</details>
+
 ### 3. Monitor and Analyze System Activity
 
 #### 3.1 Process Activity
